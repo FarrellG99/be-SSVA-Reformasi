@@ -2,7 +2,7 @@
   "name": "be-ssva-reformasi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,8 @@
   "dependencies": {
     "axios": "^0.24.0",
     "express": "^4.17.1",
-    "firebase-admin": "^10.0.0"
-  }
+    "firebase": "^9.6.0",
+    "mysql": "^2.18.1"
+  },
+  "type": "module"
 }
